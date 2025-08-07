@@ -1,0 +1,68 @@
+name: quantum_chess
+description: A revolutionary chess game with unique gameplay mechanics and immersive features.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Core dependencies
+  cupertino_icons: ^1.0.2
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  
+  # Audio & Visual
+  audioplayers: ^5.2.1
+  flutter_animate: ^4.2.0
+  lottie: ^2.7.0
+  
+  # Networking & Real-time
+  socket_io_client: ^2.0.3+1
+  http: ^1.1.0
+  
+  # AR & 3D
+  ar_flutter_plugin: ^0.7.3
+  flutter_cube: ^0.1.1
+  
+  # Voice & Communication
+  speech_to_text: ^6.6.0
+  flutter_tts: ^3.8.3
+  permission_handler: ^11.1.0
+  
+  # Weather & Location
+  geolocator: ^10.1.0
+  weather: ^3.1.1
+  
+  # Storage & State
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  
+  # UI Enhancement
+  flutter_staggered_animations: ^1.1.1
+  glassmorphism: ^3.0.0
+  particle_field: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/sounds/
+    - assets/animations/
+    - assets/pieces/
+    - assets/boards/
+    - assets/weather/
+  
+  fonts:
+    - family: ChessFont
+      fonts:
+        - asset: assets/fonts/chess_font.ttf
